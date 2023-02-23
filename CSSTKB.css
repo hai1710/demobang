@@ -1,0 +1,22 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 63%;
+}
+
+th {
+    background: yellow;
+}
+
+Span, p {
+    color: blue;
+    width: 50%;
+}
+
+#test {
+    background: orange;
+}
