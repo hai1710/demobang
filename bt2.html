@@ -3,6 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        table, th, td { border: black;
+        }
+        td{
+            font-family: Arial, sans-serif;
+            vertical-align: top;
+        }
+        tr {
+            font-family: Arial, sans-serif;
+
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 30%;
+        }
+        th  {
+            background: orange;
+            font-family: Arial, sans-serif;
+            color: white;
+                      }
+    </style>
 </head>
 <body>
 <form method="post" action="">
@@ -19,7 +41,7 @@
         <td colspan="3"><input type="text" name="email" size="15"></td>
     </tr>
     <tr>
-        <td rowspan="3">Sợ Thích</td>
+        <td rowspan="3">Sở Thích</td>
         <td> <input type="checkbox" name="hobby" />thể thao</td>
         <td> <input type="checkbox" name="hobby" />Âm Nhạc</td>
         <td> <input type="checkbox" name="hobby" />đọc Sách</td>
@@ -30,11 +52,11 @@
         <td> <input type="checkbox" name="hobby"/>điện ảnh</td>
     </tr>
     <tr>
-        <td> <input type="checkbox" name="hobby"/>du lịch</td>
+        <td colspan="3"> <input type="checkbox" name="hobby"/>du lịch</td>
     </tr>
     <tr>
-        <<td rowspan="2"><input type="submit" value="Gửi thông tin"/></td>
-        <td rowspan="2"><input type="reset" value="Nhập lại"/></td>
+        <<td colspan="2"><input type="submit" value="Gửi thông tin"/></td>
+        <td colspan="2"><input type="reset" value="Nhập lại"/></td>
     </tr>
 
   </table>
